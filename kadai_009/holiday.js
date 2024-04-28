@@ -2,12 +2,12 @@ const holidays = ["正月","成人の日","建国記念日","天皇誕生日","�
 let i = 0;
 
 console.log('for文');
-for(let i = 0; i<=16; i++){
+for(let i = 0; i<=15; i++){
     console.log(holidays[i]);
 }
 
 console.log('while文');
-while(i <= 16){
+while(i <= 15){
     console.log(holidays[i]);
     i++;
 }
